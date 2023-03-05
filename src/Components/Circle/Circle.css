@@ -1,0 +1,89 @@
+
+.foods::-webkit-scrollbar {
+    display: none;
+  }
+
+  
+
+.imageContainer img{
+    width: 130px;
+    height: 20vh;
+    margin-right: 3rem;
+    border-radius: 100%;
+    border: 1px solid pink;
+    border-width: medium;
+    border-color: pink;
+    margin-left: 2rem;
+}
+
+.foods{
+    height: 30vh;
+    display: flex;
+    overflow: scroll;
+  }
+
+  .categories{
+    font-size: 2rem;
+    font-weight: 300;
+    margin-left: 2rem;
+    padding: 2rem;
+  }
+
+  .imageContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imageContainer span{
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 5px;
+  }
+
+  @media screen and (max-width:1024px) {
+
+    
+
+    
+
+
+    .imageContainer img{
+      
+     
+    }
+
+    
+
+    
+  }
+
+  @media screen and (max-width:768px){
+
+    
+    
+    .imageContainer img{
+        height: 20vh;
+        width: 130px;
+    }
+
+    
+  }
+
+  @media screen and (max-width:520px) {
+
+    
+    
+  }
+
+  @media screen and (max-width:480px){
+    .imageContainer img{
+        width: 130px;
+        height: 17vh;
+    }
+    
+  }
+  
+  

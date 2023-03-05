@@ -1,0 +1,171 @@
+.image{
+    height: 71vh;
+    background-image: linear-gradient(pink,rgba(22, 211, 245, 0.507),rgba(248, 12, 248, 0.493));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+
+    
+
+}
+
+/* .right{
+    
+    width: 60%;
+    margin-left: 2rem;
+    margin-bottom: 10rem;
+
+} */
+
+.right img{
+    width: 30vw;
+    margin-top: 3rem;
+    
+    
+}
+
+.authentic{
+   
+    margin: 3rem;
+
+    
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: baseline;
+}
+.authentic span{
+    display: block;
+}
+
+.authentic :nth-child(1){
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.authentic :nth-child(2){
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.authentic :nth-child(3){
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.authentic :nth-child(4){
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.pamper{
+   
+    margin: 1rem;
+    text-align: left;
+
+}
+
+.pamper p{
+    font-size: 1.5rem;
+    font-weight: 300;
+    word-spacing: 2px;
+
+}
+
+.right{
+    width: 50%;
+    
+    text-align: center;
+}
+
+.btn button{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 1rem;
+    
+}
+
+@media screen and (max-width:1024px) {
+    
+
+    .right img{
+        width: 40vw;
+    }
+    
+    
+}
+
+
+@media screen and (max-width:768px) {
+    
+
+    .right img{
+        width: 45vw;
+        margin-top: 6rem;
+    }
+
+    
+
+}
+
+@media screen and (max-width:520px) {
+    
+
+    .right img{
+        width: 40vw;
+        margin-top: 22rem;
+    }
+
+    
+}
+
+@media screen and (max-width:480px) {
+
+    .image{
+        height: 58vh;
+    }
+
+    .authentic{
+    }
+
+    .authentic :nth-child(1){
+        font-size: 3rem;
+        font-weight: 500;
+    }
+
+    .authentic :nth-child(2){
+        font-size: 3rem;
+        font-weight: 500;
+    }
+
+    .authentic :nth-child(3){
+        font-size: 3rem;
+        font-weight: 500;
+    }
+
+    .authentic :nth-child(4){
+        font-size: 3rem;
+        font-weight: 500;
+    }
+
+    .pamper{
+        width: 50vw;
+    }
+
+    .pamper p{
+        font-size: 1.5rem;
+    }
+
+
+
+
+    .btn button{
+        margin-top: 2rem;
+    }
+   
+}

@@ -1,0 +1,178 @@
+.snackContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.pepsiContainer{
+    height: 65vh;
+    background-image: url('./s2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text p{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.circle{
+    height: 25vh;
+    width: 15vw;
+    border-radius: 100%;
+    background-image: linear-gradient(45deg,orange,gold);
+    text-align: center;
+    display: flex;
+    margin-top: 2.5rem;
+}
+
+.lays{
+    width: 13vw;
+    height: 25vh;
+    transform: rotate(-45deg);
+
+}
+
+.pepsi{
+    width: 13vw;
+    height: 25vh;
+    transform: rotate(45deg);
+}
+
+.beverage{
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.beverage p{
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+
+/* .snack{
+    margin-top: 1rem;
+    font-size: 3rem;
+    font-weight: 500;
+} */
+
+/* .bevg{
+    font-size: 3rem;
+    font-weight: 500;
+} */
+
+
+.btn3 button{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size: 3rem;
+    width: 17rem;
+    padding: 0.5rem;
+    margin-top: 6rem;
+}
+
+@media screen and (max-width:1024px) {
+
+    .beverage{
+        
+    }
+    
+    .circle{
+        width: 20vw;
+        height: 20vh;
+    }
+
+    .lays{
+        width: 13vw;
+        height: 22vh;
+
+    }
+
+    .pepsi{
+
+        width: 13vw;
+        height: 22vh;
+
+    }
+
+   
+
+    
+}
+
+@media screen and (max-width:768px) {
+    
+
+
+    
+
+    .circle{
+        width: 25vw;
+    }
+    
+    .lays{
+        width: 17vw;
+    }
+
+    .pepsi{
+        width: 17vw;
+    }
+}
+
+
+@media screen and (max-width:520px) {
+    
+    
+
+    .circle{
+        width: 33vw;
+    }
+    
+    .lays{
+        width: 22vw;
+    }
+
+    .pepsi{
+        width: 22vw;
+    }
+    
+
+    
+}
+
+
+@media screen and (max-width:480px) {
+
+    .beverage{
+    }
+
+    .pepsiContainer{
+        height: 55vh;
+    }
+
+    
+
+    .circle{
+        width: 44vw;
+        height: 20vh;
+    }
+
+    .lays{
+        width: 26vw;
+        height: 17vh;
+    }
+
+    .pepsi{
+        width: 26vw;
+        height: 17vh;
+    }
+
+    
+    
+}
+

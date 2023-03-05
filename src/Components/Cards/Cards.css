@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.cards{
+    height: 210vh;
+    width: 45%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 2rem;
+    column-gap: 2rem;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.smallCard{
+    width: 20vw;
+    height: 65vh;
+}
+
+.imageBox{
+    width: 100%;
+    height: 65%;
+    }
+
+.imageBox img{
+    width: 100%;
+    height: 100%;
+}
+
+.title{
+    height: 15%;
+}
+
+.title p{
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.price{
+    height: 10%;
+}
+
+.price p{
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.addToBasket{
+    height: 10%;
+}
+
+.addToBasket button{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width:1200px) {
+
+    .cards{
+        
+    }
+
+    .smallCard{
+        /* width: 20vw; */
+    }
+    
+}
+
+@media screen and (max-width:1024px) {
+
+    .cards{
+        width: 55%;
+        
+        
+    }
+
+    .price p{
+        padding: 15px 0;
+    }
+
+    .smallCard{
+        width: 25vw;
+    }
+    
+}
+
+
+@media screen and (max-width:768px) {
+
+    .cards{
+        width: 87%;
+        height: 180vh;
+        
+    }
+
+    .imageBox{
+        height: 55%;
+    }
+
+    .title{
+        height: 18%;
+    }
+
+    .price{
+        height: 12%;
+    }
+
+    .price p{
+        padding: 10px 0;
+    }
+
+    .addToBasket{
+        height: 15%;
+    }
+
+    .smallCard{
+        width: 39vw;
+        height: 55vh;
+    }
+    
+}
+
+@media screen and (max-width:520px) {
+
+    .cards{
+        
+    }
+
+    .smallCard{
+        width: 40vw;
+    }
+    
+}
+
+@media screen and (max-width:480px) {
+
+    .cards{
+        
+    }
+
+    .smallCard{
+        width: 40vw;
+    }
+
+    
+}

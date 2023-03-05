@@ -1,0 +1,155 @@
+.pContainer{
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.171);
+    margin-top: 6rem;
+    display: grid;
+}
+
+
+
+.popular{
+    height: 18vh;
+    width: 90vw;
+    margin: 2rem;
+    
+    
+}
+
+.popular :nth-child(1){
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.popular :nth-child(2){
+    font-size: 3.5rem;
+    font-weight: 450;
+    
+}
+
+.card{
+    height: 65vh;
+    width: 30vw;
+    margin: auto;
+    /* margin-top: 15rem;
+    margin-left: 40rem; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+}
+
+.card p{
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+.first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(45deg,rgba(240, 28, 13, 0.712),gold);
+}
+
+.second{
+    background-image: linear-gradient(45deg,rgba(240, 28, 13, 0.712),gold);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third{
+    background-image: linear-gradient(45deg,rgba(240, 28, 13, 0.712),gold);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fourth{
+    background-image: linear-gradient(45deg,rgba(240, 28, 13, 0.712),gold);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.first img{
+    width: 100%;
+    height: 70%;
+    border-radius: 100%;
+}
+
+.para{
+    height: 30%;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.second img{
+    width: 100%;
+    height: 70%;
+    border-radius: 100%;
+}
+
+.third img{
+    width: 100%;
+    height: 70%;
+    border-radius: 100%;
+}
+
+.fourth img{
+    width: 100%;
+    height: 70%;
+    border-radius: 100%;
+}
+
+@media screen and (max-width:1024px) {
+    
+    .card{
+        width: 35vw;
+        
+    }
+
+   
+
+    
+}
+
+@media screen and (max-width:768px) {
+
+    .card{
+        
+        width: 40vw;
+    }
+
+    
+}
+
+@media screen and (max-width:520px) {
+    .popular{
+        
+        
+    }
+
+    .card{
+        
+        width: 50vw;
+    }
+    
+}
+
+
+@media screen and (max-width:480px) {
+    .card{
+        
+        width: 85vw;
+        margin-bottom: 12rem;
+        
+    }
+
+   
+}
+    
