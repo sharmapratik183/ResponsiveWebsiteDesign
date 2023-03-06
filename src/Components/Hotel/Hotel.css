@@ -96,6 +96,10 @@
     .right img{
         width: 40vw;
     }
+
+    .pamper{
+        background-color: blue;
+    }
     
     
 }
@@ -154,11 +158,13 @@
     }
 
     .pamper{
-        width: 50vw;
+        width: 60vw;
     }
 
     .pamper p{
-        font-size: 1.5rem;
+        font-size: 1rem;
+        font-weight: 200;
+        word-spacing: 1px;
     }
 
 
