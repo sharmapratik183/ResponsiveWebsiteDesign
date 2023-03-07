@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ResponsiveWebsiteDesign/static/css/main.13fff845.css",
+    "main.css": "/ResponsiveWebsiteDesign/static/css/main.47805d3b.css",
     "main.js": "/ResponsiveWebsiteDesign/static/js/main.be7f6e82.js",
     "static/js/787.dee7490b.chunk.js": "/ResponsiveWebsiteDesign/static/js/787.dee7490b.chunk.js",
     "static/media/p2.png": "/ResponsiveWebsiteDesign/static/media/p2.9565732296b8936bcd98.png",
@@ -26,12 +26,12 @@
     "static/media/food6.jfif": "/ResponsiveWebsiteDesign/static/media/food6.dcac0cd7aaea52a01ed8.jfif",
     "static/media/v1.jfif": "/ResponsiveWebsiteDesign/static/media/v1.a9f9601eb66500fcc3f3.jfif",
     "index.html": "/ResponsiveWebsiteDesign/index.html",
-    "main.13fff845.css.map": "/ResponsiveWebsiteDesign/static/css/main.13fff845.css.map",
+    "main.47805d3b.css.map": "/ResponsiveWebsiteDesign/static/css/main.47805d3b.css.map",
     "main.be7f6e82.js.map": "/ResponsiveWebsiteDesign/static/js/main.be7f6e82.js.map",
     "787.dee7490b.chunk.js.map": "/ResponsiveWebsiteDesign/static/js/787.dee7490b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13fff845.css",
+    "static/css/main.47805d3b.css",
     "static/js/main.be7f6e82.js"
   ]
 }
