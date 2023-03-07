@@ -9,7 +9,7 @@
     margin-right: 3rem;
     border-radius: 100%;
     border: 1px solid pink;
-    border-width: medium;
+    border-width: 0.5rem;
     border-color: pink;
     margin-left: 2rem;
 }
@@ -45,6 +45,23 @@
     .container{
     }
 
+    
+  }
+
+
+  @media screen and (device-width:820px) {
+    .imageContainers img{
+      height: 15vh;
+    }
+
+    .food{
+      height: 25vh;
+    }
+
+    .category{
+      font-size: 3rem;
+      font-weight: 400;
+    }
     
   }
 

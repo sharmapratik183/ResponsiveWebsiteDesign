@@ -37,6 +37,25 @@
     
 }
 
+
+@media screen and (device-width:820px) {
+    .itcImage img{
+        width: 30vw;
+    }
+
+    .itcImage{
+        width: 35vw;
+    }
+
+    .copyright{
+        margin-bottom: 20rem;
+    }
+    
+    .copyright p{
+        font-size: 2rem;
+    }
+}
+
 @media screen and (max-width:768px) {
     
 
@@ -70,7 +89,7 @@
     }
 
     .copyright{
-        margin-bottom: 20rem;
+        margin-bottom: 15rem;
     }
 
     

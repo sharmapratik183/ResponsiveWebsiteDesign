@@ -11,8 +11,7 @@
     margin-right: 3rem;
     border-radius: 100%;
     border: 1px solid pink;
-    border-width: medium;
-    border-color: pink;
+    border-width: 0.5rem;
     margin-left: 2rem;
 }
 
@@ -45,18 +44,16 @@
 
   @media screen and (max-width:1024px) {
 
-    
-
-    
-
-
     .imageContainer img{
-      
-     
     }
 
-    
+  }
 
+
+  @media screen and (device-width:820px) {
+    .imageContainer img{
+      height: 15vh;
+    }
     
   }
 
@@ -65,7 +62,7 @@
     
     
     .imageContainer img{
-        height: 20vh;
+        height: 17vh;
         width: 130px;
     }
 

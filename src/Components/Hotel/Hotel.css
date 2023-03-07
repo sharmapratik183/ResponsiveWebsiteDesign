@@ -18,25 +18,18 @@
 
 } */
 
-.right img{
-    width: 30vw;
-    margin-top: 3rem;
-    
-    
-}
+
 
 .authentic{
    
-    margin: 3rem;
-
-    
 }
 
 .left{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 40vw;
     align-items: baseline;
+    margin: 3rem;
 }
 .authentic span{
     display: block;
@@ -64,9 +57,8 @@
 
 .pamper{
    
-    margin: 1rem;
     text-align: left;
-    background-color: gold;
+    margin-top: 2rem;
 
 }
 
@@ -78,9 +70,14 @@
 }
 
 .right{
-    width: 50%;
-    
+    width: 50vw;
     text-align: center;
+    margin-top: 3rem;
+}
+
+.right img{
+    width: 30vw;
+    height: 60vh;
 }
 
 .btn button{
@@ -88,30 +85,66 @@
     color: white;
     cursor: pointer;
     padding: 1rem;
+    margin-top: 2rem;
     
 }
 
 @media screen and (max-width:1024px) {
+
+    .image{
+        height: 65vh;
+    }
+
+    .right{
+        height: 60vh;
+        
+    }
     
 
     .right img{
-        width: 40vw;
+        width: 35vw;
+        height: 40vh;
+        
     }
 
     .pamper{
-        background-color: blue;
+       
     }
     
+    
+}
+
+@media screen and (device-width:820px) {
+
+    .image{
+        height: 50vh;
+    }
+
+    .pamper{
+    }
     
 }
 
 
 @media screen and (max-width:768px) {
+
+    .image{
+        height: 70vh;
+    }
+
+    .right{
+        width: 40vw;
+        
+    }
+
+    .left{
+        width: 45vw;
+    }
     
 
     .right img{
-        width: 45vw;
-        margin-top: 6rem;
+        width: 35vw;
+        height: 45vh;
     }
 
     
@@ -119,23 +152,24 @@
 }
 
 @media screen and (max-width:520px) {
+
+    .image{
+        height: 55vh;
+    }
+
+    .right{
+        
+        width: 35vw;
+    }
     
 
     .right img{
-        width: 40vw;
-        margin-top: 22rem;
+        width: 30vw;
+        height: 40vh;
     }
 
-    
-}
-
-@media screen and (max-width:480px) {
-
-    .image{
-        height: 58vh;
-    }
-
-    .authentic{
+    .left{
+        width: 50vw;
     }
 
     .authentic :nth-child(1){
@@ -158,8 +192,66 @@
         font-weight: 500;
     }
 
+    .pamper p{
+        font-size: 1rem;
+        font-weight: 200;
+    }
+
+    .btn button{
+        padding: 0.5rem;
+    }
+
+
+
+    
+}
+
+@media screen and (max-width:480px) {
+
+    .right{
+        
+        width: 30vw;
+        height: 50vh;
+    }
+
+    .right img{
+        width: 25vw;
+        height: 20vh;
+        margin-top: 4rem;
+    }
+
+    .image{
+
+        height: 50vh;
+    
+    }
+
+    .authentic{
+    }
+
+    .authentic :nth-child(1){
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .authentic :nth-child(2){
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .authentic :nth-child(3){
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .authentic :nth-child(4){
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
     .pamper{
         width: 60vw;
+        margin-top: 2rem;
     }
 
     .pamper p{
@@ -173,6 +265,21 @@
 
     .btn button{
         margin-top: 2rem;
+        padding: 0.4rem;
     }
    
+}
+
+@media screen and (max-width:400px) {
+    .image{
+        height: 40vh;
+    }
+    
+}
+
+@media screen and (max-width:350px) {
+    .image{
+        height: 55vh;
+    }
+    
 }

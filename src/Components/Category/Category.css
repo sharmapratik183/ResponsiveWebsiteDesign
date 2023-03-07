@@ -107,10 +107,18 @@
 }
 
 @media screen and (max-width:1024px) {
+
+    .pContainer{
+    
+    }
     
     .card{
         width: 35vw;
         
+    }
+
+    .para p{
+        font-size: 2rem;
     }
 
    
@@ -118,11 +126,43 @@
     
 }
 
+@media screen and (device-width:912px) {
+
+    .card{
+        width: 70vw;
+    }
+
+    .para p{
+        font-size: 3rem;
+    }
+    
+}
+
+@media screen and (device-width:820px) {
+    .card{
+        width: 70vw;
+
+    }
+
+    .pContainer{
+        margin-top: 0;
+    }
+
+    .para p{
+        font-size: 3rem;
+    }
+    
+}
+
 @media screen and (max-width:768px) {
 
     .card{
         
-        width: 40vw;
+        width: 75vw;
+    }
+
+    .para p{
+        font-size: 2rem;
     }
 
     
@@ -150,6 +190,18 @@
         
     }
 
+    .para p{
+        font-size: 2rem;
+    }
+
    
+}
+
+@media screen and (max-width:400px) {
+
+    .para p{
+        font-size: 1.5rem;
+    }
+    
 }
     
